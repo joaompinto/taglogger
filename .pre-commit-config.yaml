@@ -42,9 +42,9 @@ repos:
 
 -   repo: local
     hooks:
-    -   id: run-pytest
-        name: Run tests using pytest
+    -   id: run just test
+        name: Run tests using just
         entry:
-            python -m pytest
+            just test
         language: system
         pass_filenames: false
